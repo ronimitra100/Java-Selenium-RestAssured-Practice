@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3045" started-at="2017-01-30T09:56:14Z" finished-at="2017-01-30T09:56:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3045" started-at="2017-01-30T09:56:14Z" finished-at="2017-01-30T09:56:17Z">
+      <class name="udemy1.fruz1.LandLordTest">
+        <test-method status="PASS" signature="classinit()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="classinit" is-config="true" duration-ms="397" started-at="2017-01-30T01:56:14Z" finished-at="2017-01-30T01:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classinit -->
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="failTest" duration-ms="9" started-at="2017-01-30T01:56:15Z" finished-at="2017-01-30T01:56:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at udemy1.fruz1.LandLordTest.failTest(LandLordTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method status="PASS" signature="postLandlord01(udemy1.fruz1.LandLord)[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="postLandlord01" duration-ms="2131" started-at="2017-01-30T01:56:15Z" data-provider="validLandLords" finished-at="2017-01-30T01:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[udemy1.fruz1.LandLord@5876a9af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLandlord01 -->
+        <test-method status="PASS" signature="postLandlord01(udemy1.fruz1.LandLord)[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="postLandlord01" duration-ms="193" started-at="2017-01-30T01:56:17Z" data-provider="validLandLords" finished-at="2017-01-30T01:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[udemy1.fruz1.LandLord@2ef8a8c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLandlord01 -->
+        <test-method status="PASS" signature="putLandlord()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="putLandlord" duration-ms="173" started-at="2017-01-30T01:56:17Z" finished-at="2017-01-30T01:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putLandlord -->
+        <test-method status="PASS" signature="deleteLandlord()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="deleteLandlord" duration-ms="103" started-at="2017-01-30T01:56:17Z" finished-at="2017-01-30T01:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLandlord -->
+        <test-method status="SKIP" signature="getLandlords()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21]" name="getLandlords" duration-ms="0" started-at="2017-01-30T01:56:17Z" depends-on-methods="udemy1.fruz1.LandLordTest.failTest" finished-at="2017-01-30T01:56:17Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LandLordTest.getLandlords()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LandLordTest.getLandlords()[pri:0, instance:udemy1.fruz1.LandLordTest@50c87b21] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1099)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLandlords -->
+      </class> <!-- udemy1.fruz1.LandLordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
